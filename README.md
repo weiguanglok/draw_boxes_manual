@@ -20,8 +20,27 @@ pip install opencv-python
 
 ## 🚀 How to Use
 
-    Clone this repository:
-    code Bash
+1. Clone this repository:
+```bash
+git clone https://github.com/weiguanglok/draw_boxes_manual.git
+cd draw_boxes_manual
+```
 
-    git clone https://github.com/weiguanglok/draw_boxes_manual.git
-    cd draw_boxes_manual
+2. Run the script:
+```bash
+python draw_boxes_manual.py
+```
+
+3. When prompted, enter the absolute or relative path to the folder containing your images.
+
+4. An OpenCV window will pop up with your first image.
+* Click and Drag your mouse to draw a bounding box.
+* Press ENTER or SPACE to confirm the bounding box and move to the next image.
+* Press C to cancel the current selection and skip the image.
+
+5. Boxed images will be saved in a new folder located at [your_image_folder]/boxed/.
+
+## 📁 Supported File Types
+* .jpg
+* .jpeg
+* .png
